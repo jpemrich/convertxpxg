@@ -129,7 +129,6 @@
             "GeneralInfo": {
                 "SessionFree": false,
                 "Author": "",
-                "Service": "wsHPMqa",
                 "WorkDir": "S:/progress/wsa/prod/hpm/",
                 "VerboseLogging": true,
                 "LeaveProxyFiles": true,
@@ -138,7 +137,7 @@
             "DeploymentInfo": {
                 "CurrentEncoding": 3,
                 "WebServiceNamespaceValue": "urn:hpmich-local-Rhapsody",
-                "SoapEndpointURL": "http://${uriHost}/${UriPath}",
+                "uriScheme" : "http",
                 "WebServiceNamespaceUserDefined": true,
                 "ConnectReturnString": false,
                 "GenerateTestWSDL": "true",
